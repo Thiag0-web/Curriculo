@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thiago Oliveira da Rocha</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.3;
+        color: #000;
+        background: #f5f5f5;
+        font-size: 10.5pt;
+      }
+
+      .container {
+        max-width: 210mm;
+        margin: 0 auto;
+        background: #fff;
+        padding: 0.75in;
+        min-height: 297mm;
+        position: relative;
+      }
+
+      @media print {
+        body {
+          background: #fff;
+        }
+        .container {
+          padding: 0.5in;
+          margin: 0;
+        }
+      }
+
+      /* Header */
+      .header {
+        text-align: center;
+        margin-bottom: 16px;
+        padding-bottom: 8px;
+      }
+
+      .header h1 {
+        font-size: 20pt;
+        font-weight: bold;
+        margin-bottom: 4px;
+        letter-spacing: 1px;
+      }
+
+      .header .title {
+        font-size: 11pt;
+        margin-bottom: 6px;
+        font-weight: normal;
+      }
+
+      .contact {
+        font-size: 9.5pt;
+        line-height: 1.4;
+      }
+
+      .contact a {
+        color: #000;
+        text-decoration: none;
+      }
+
+      .contact a:hover {
+        text-decoration: underline;
+      }
+
+      /* Section Headers */
+      .section {
+        margin-bottom: 14px;
+      }
+
+      .section-title {
+        font-size: 11pt;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 6px;
+        border-bottom: 2px solid #000;
+      }
+
+      /* Summary */
+      .summary {
+        text-align: justify;
+        line-height: 1.4;
+      }
+
+      /* Skills */
+      .skills-grid {
+        line-height: 1.5;
+      }
+
+      .skill-category {
+        margin-bottom: 4px;
+      }
+
+      .skill-category strong {
+        font-weight: bold;
+      }
+
+      /* Experience */
+      .job {
+        margin-bottom: 10px;
+      }
+
+      .job-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 2px;
+      }
+
+      .job-title-company {
+        font-weight: bold;
+        font-size: 10.5pt;
+      }
+
+      .job-date {
+        font-weight: bold;
+        font-size: 9.5pt;
+      }
+
+      .job-position {
+        font-style: italic;
+        margin-bottom: 4px;
+        font-size: 10pt;
+      }
+
+      .job ul {
+        margin-left: 18px;
+        margin-top: 3px;
+      }
+
+      .job li {
+        margin-bottom: 3px;
+        line-height: 1.35;
+      }
+
+      /* Projects */
+      .project {
+        margin-bottom: 8px;
+      }
+
+      .project-header {
+        font-weight: bold;
+        margin-bottom: 3px;
+      }
+
+      .project-header a {
+        color: #000;
+        text-decoration: none;
+      }
+
+      .project-description {
+        line-height: 1.4;
+      }
+
+      .project ul {
+        margin-left: 18px;
+        margin-top: 3px;
+      }
+
+      .project li {
+        margin-bottom: 3px;
+        line-height: 1.35;
+      }
+
+      /* Education */
+      .education-item {
+        margin-bottom: 6px;
+      }
+
+      .education-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+      }
+
+      .education-school {
+        font-weight: bold;
+      }
+
+      .education-date {
+        font-weight: bold;
+        font-size: 9.5pt;
+      }
+
+      .education-degree {
+        font-size: 10pt;
+      }
+
+      /* Metrics highlighting */
+      strong.metric {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="resume-container">
+      <!-- Header -->
+      <div class="header">
+        <h1>Thiago Oliveira</h1>
+        <div class="title">Desenvolvedor FullStack</div>
+        <div class="contact">
+          <a href="mailto:thiago.fullstacker@gmail.com"
+            >thiago.fullstacker@gmail.com</a
+          >
+          |
+          <a href="https://github.com/smlaurindo" target="_blank"
+            >github.com/Thiag0-web</a
+          >
+          |
+          <a href="https://www.linkedin.com/in/smlaurindo" target="_blank"
+            >linkedin/in/thiago-oliveira-web/</a
+          >
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Resumo Profissional</div>
+        <div class="summary">
+          Sou estudante de Análise e Desenvolvimento de Sistemas, após atuar por
+          5 anos como atendente e técnico em informática. Entre 2018 e 2025
+          trabalhei prestando suporte para computadores e celulares, realizando
+          formatação, remoção de FRP, recuperação de hardbrick e atendimento ao
+          cliente. Atualmente estudo desenvolvimento web, utilizando HTML, CSS,
+          JavaScript, TypeScript, React e Tailwind. Desenvolvo landing pages com
+          frequência e busco oportunidades para aplicar meus conhecimentos,
+          aprender mais e crescer na área de tecnologia com foco em front-end.
+        </div>
+      </div>
+
+      <!-- Education & Languages -->
+      <div class="section">
+        <div class="section-title">Educação</div>
+
+        <div class="education-item">
+          <div class="education-header">
+            <div class="education-school">Uninter</div>
+            <div class="education-date">Julho 2022 - Fevereiro 2026</div>
+          </div>
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              font-size: 10pt;
+            "
+          >
+            <div style="font-style: italic">
+              Tecnólogo em Análise e Desenvolvimento de Sistemas (Concluído) ·
+              EAD
+            </div>
+            <div><strong>CR:</strong> 9,13</div>
+          </div>
+          <ul style="margin-left: 18px; margin-top: 3px">
+            <li style="margin-bottom: 2px; line-height: 1.35; font-size: 10pt">
+              <strong>Matérias Relevantes:</strong> Desenvolvimento Web,
+              Estrutura de Dados, Banco de Dados, Redes de Computadores,
+              Segurança da Informação e Programação Orientada a Objetos
+            </li>
+          </ul>
+        </div>
+
+        <div class="education-item" style="margin-top: 12px">
+          <div class="education-header">
+            <div class="education-school">
+              Formação Full Stack JavaScript OneBitCode
+            </div>
+            <div class="education-date">Agosto 2025 - Presente</div>
+          </div>
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              font-size: 10pt;
+            "
+          >
+            <div style="font-style: italic">Formação Full Stack · EaD</div>
+          </div>
+          <ul style="margin-left: 18px; margin-top: 3px">
+            <li style="margin-bottom: 2px; line-height: 1.35; font-size: 10pt">
+              <strong>Matérias Relevantes:</strong> Javascript, Typescript,
+              Programação Orientada a Objetos (POO), Banco de Dados, Redes de
+              Computadores, Sistemas Operacionais e Modelagem de Dados
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Achievements -->
+      <div class="section">
+        <!-- Technical Skills -->
+        <div class="section">
+          <div class="section-title">Habilidades Técnicas</div>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <strong>Linguagens:</strong> Javascript, TypeScript
+            </div>
+            <div class="skill-category">
+              <strong>Backend:</strong> C#, APIs REST
+            </div>
+            <div class="skill-category">
+              <strong>Banco de Dados:</strong> PostgreSQL
+            </div>
+            <div class="skill-category">
+              <strong>Infra & DevOps:</strong> Docker
+            </div>
+            <div class="skill-category"><strong>Frontend:</strong> React</div>
+            <div class="skill-category">
+              <strong>Ferramentas:</strong> Git, Swagger / OpenAPI e Postman
+            </div>
+          </div>
+        </div>
+
+        <!-- Professional Experience -->
+        <div class="section">
+          <div class="section-title">Experiência Profissional</div>
+
+          <div class="job">
+            <div class="job-header">
+              <div class="job-title-company">JRinformatica</div>
+              <div class="job-date">Janeiro 2017 - Presente</div>
+            </div>
+            <div class="job-position">Tecnico de Informática · Presencial</div>
+            <ul>
+              <li>
+                Atendimento técnico e suporte a usuários, realizando diagnóstico
+                e resolução de problemas em sistemas e dispositivos
+              </li>
+              <li>
+                Instalação, configuração e manutenção de sistemas operacionais e
+                softwares
+              </li>
+              <li>Análise e solução de falhas de hardware e software</li>
+              <li>
+                Atendimento direto ao cliente, levantamento de requisitos e
+                explicação técnica de soluções
+              </li>
+              <li>
+                Organização e padronização de processos técnicos, garantindo
+                eficiência e qualidade no atendimento
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Personal Projects -->
+        <div class="section">
+          <div class="section-title">Projetos Pessoais</div>
+
+          <div class="project">
+            <div class="project-header">
+              Sistema de Enquetes em Tempo Real ·
+              <a
+                href="https://github.com/smlaurindo/realtime-polls-challenge"
+                target="_blank"
+                >github.com/smlaurindo/realtime-polls-challenge</a
+              >
+            </div>
+            <div class="project-description">
+              Desenvolvi uma interface de autenticação moderna utilizando React
+              e Tailwind CSS, focada em uma experiência de usuário (UX) fluida e
+              visual "premium". O projeto utiliza componentes do shadcn/ui para
+              garantir acessibilidade e consistência visual, apresentando um
+              layout split-screen com tema escuro. Implementei funcionalidades
+              essenciais como validação de campos, alternância de visibilidade
+              de senha e botões de login social (Google/Apple), priorizando um
+              código limpo, responsivo e de alta performance.
+            </div>
+            <ul>
+              <li>
+                <strong>Funcionalidades:</strong> Criação, edição e exclusão de
+                tickets; paginação com filtros;
+              </li>
+              <li>
+                <strong>Stack:</strong> Javascript, Typescript, React, Tailwind,
+                Shadcn
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
