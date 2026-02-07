@@ -34,4 +34,4 @@ Disponível diretamente na página inicial.
 ├── index.html
 ├── thiag0-web.pdf
 ├── favicon.png
-└── README.md
+├── README.md
