@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thiago Oliveira da Rocha</title>
-     <link rel="icon" href="./favicon.png" type="image/x-icon" />
+    <link rel="icon" href="./favicon.png" type="image/x-icon" />
     <style>
       * {
         margin: 0;
@@ -201,6 +201,30 @@
       strong.metric {
         font-weight: bold;
       }
+
+      .download-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+      }
+
+      .btn-download {
+        display: inline-block;
+        padding: 12px 28px;
+        background-color: #0f172a;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 8px;
+        transition:
+          transform 0.2s ease,
+          background-color 0.2s ease;
+      }
+
+      .btn-download:hover {
+        background-color: #020617;
+        transform: translateY(-2px);
+      }
     </style>
   </head>
   <body>
@@ -214,11 +238,11 @@
             >thiago.fullstacker@gmail.com</a
           >
           |
-          <a href="https://github.com/smlaurindo" target="_blank"
+          <a href="https://github.com/Thiag0-web" target="_blank"
             >github.com/Thiag0-web</a
           >
           |
-          <a href="https://www.linkedin.com/in/smlaurindo" target="_blank"
+          <a href="https://www.linkedin.com/in/thiago-oliveira-web/" target="_blank"
             >linkedin/in/thiago-oliveira-web/</a
           >
         </div>
@@ -387,6 +411,11 @@
             </ul>
           </div>
         </div>
+      </div>
+      <div class="download-wrapper">
+        <a href="./assets/curriculo.pdf" download class="btn-download">
+          Baixar PDF
+        </a>
       </div>
     </div>
   </body>
